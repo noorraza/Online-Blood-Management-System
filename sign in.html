@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Blood Donation | Sign in</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/fevicon.png" type="image/png">
+  </head>
+  <body onload="fn()">
+      <script type="text/javascript">
+      
+          function ff()
+          {
+              alert("Do you want subscribe");
+          }
+           function fn()
+          {
+              confirm("Welcome to you");
+          } 
+            function fff()
+            {
+               var x = document.getElementById("name");
+                x.value=x.value.toUpperCase();
+            }
+           function fk()
+          {
+              alert("Reset done");
+          }
+      
+      </script>>
+<header>
+    <div id="h5" style="background-color: purple; " >
+           <div id="branding">
+      <h1><img src="./images/logo2.png" width="20%"  style="margin-left: 35px"></h1>
+    </div>
+    <nav>
+     <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="Why give blood.html">WHY GIVE BLOOD</a></li>
+          <li><a href="Registration.html">REGISTER</a></li>
+          <li><a href="our camps.html">OUR CAMPS</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li  class="current"><a href="#">SIGN IN</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <form >
+  <div class="imgcontainer">
+    <img src="./images/img_avatar2.png" alt="Avatar" class="avatar" style="background-color:black">
+  </div>
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" id="name" placeholder="Enter Username" name="uname" onblur="fff()">
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" >
+
+   <input type="checkbox">Remeber me
+    
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1" >
+       <button type="submit" id="login" >Login</button>
+    <button type="reset" id="cancel" onclick="fk()">Reset</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+  <section id="newsletter">
+  <div class="container">
+  <h1>Subscribe to our Newsletter</h1>
+  <form method="post" onsubmit="ff()">
+ <input type="Email" placeholder="Enter Email...">
+ <button type="submit" class="button_1">Subscribe</button>
+  </form>
+  </div>
+  </section>
+
+    <footer>
+   <div class="social">
+		<div class="heading">Follow Us</div>
+		<img src="./images/facebook.png" alt="Facebook" />
+		<img src="./images/twtter.png" alt="Twitter" />
+		<img src="./images/insta.png" alt="Instagram" />
+	</div>
+    <p style="text-align:center;margin-left: 185px;">Blood Donation </p>
+  </footer>
+  </body>
+</html>
+ 
